@@ -66,6 +66,9 @@ article{
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
+article table{
+    background-color: rgb(239, 238, 250);
+    border: 2px solid;
 aside{
     flex: 1;
     background-color: #eef;
