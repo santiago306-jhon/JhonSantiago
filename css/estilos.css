@@ -67,9 +67,22 @@ article{
     box-shadow: 0 2px 5px #022442;
 }
 
+/* 🎯 ESTILO CORRECTO PARA LA TABLA */
 article table{
+    width: 100%;
+    border-collapse: collapse;
     background-color: rgb(239, 238, 250);
-    border: 2px solid;
+    border: 2px solid black;
+}
+
+article table th,
+article table td {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+article table th {
+    background-color: rgb(220, 210, 240);
 }
 
 aside{
@@ -88,21 +101,3 @@ footer{
     border-radius: 8px;
     margin-top: 20px;
 }
-article table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-article table th,
-article table td {
-    border: 1px solid black;
-    padding: 6px;
-}
-
-article table th {
-    background-color: rgb(220, 210, 240);
-}
-article table{
-    background-color: rgb(239, 238, 250);
-    border: 2px solid;
-    }
