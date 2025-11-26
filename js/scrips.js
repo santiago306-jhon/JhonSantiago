@@ -57,4 +57,12 @@ function agrandarTitulo(){
 function reducirImagen(){
     document.getElementById("carita").style.width = "150px";
 }
+function cambiarSubtitulo1(){
+    document.getElementById("Subtitulo").textContent = "Subtítulo cambiado con JavaScript.";
+}
+
+function cambiarSubtitulo2(){
+    document.getElementById("Subtitulo2").textContent = "Texto actualizado exitosamente.";
+}
+
 
