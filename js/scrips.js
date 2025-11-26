@@ -58,7 +58,7 @@ function reducirImagen(){
     document.getElementById("carita").style.width = "150px";
 }
 function cambiarSubtitulo1(){
-    document.getElementById("Subtitulo").textContent = "Subtítulo cambiado con JavaScript.";
+    document.getElementById("Subtitulo").textContent = "ya combie el subtitulo.";
 }
 
 function cambiarSubtitulo2(){
