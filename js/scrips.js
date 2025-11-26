@@ -2,11 +2,11 @@ console.log("Hola Mundo");
 alert("Hola Mundo, esto es un alert") 
 
 function triste(){
-    document.getElementById('carita').src='images/sad.png';
+    document.getElementById('carita').src='imagenes/sad.avif';
     alert("Po que ta triste mano");
 }
 function feliz(){
-    document.getElementById('carita').src='images/happy.png';
+    document.getElementById('carita').src='imagenes/happy2.png';
 }
 function cambiarColor(){
     document.getElementById('menu').style.color='#eed33aff';
