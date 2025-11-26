@@ -42,3 +42,19 @@ function alert5(){
 function alert6(){ 
     alert("Mensaje 6: Último alert creado"); 
 }
+function cambiarFondoPagina(){
+    document.body.style.background = "#d2f8ff";
+}
+
+function cambiarTexto(){
+    document.body.style.color = "darkblue";
+}
+
+function agrandarTitulo(){
+    document.getElementById("titulo").style.fontSize = "50px";
+}
+
+function reducirImagen(){
+    document.getElementById("carita").style.width = "150px";
+}
+
